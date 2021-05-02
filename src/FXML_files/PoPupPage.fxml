@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="200.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML_Controllers.PoPupPage">
+   <children>
+      <ImageView fitHeight="171.0" fitWidth="354.0" layoutX="97.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" scaleX="1.64" scaleY="1.2">
+         <image>
+            <Image url="@../images/backgroundPopUp.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="Button_Yes" layoutX="143.0" layoutY="156.0" onMouseClicked="#Click_On_Yes" prefHeight="31.0" prefWidth="93.0" style="-fx-background-color: f6ff00;" text="Yes">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="Button_No" layoutX="258.0" layoutY="156.0" onMouseClicked="#Click_ON_NO" prefHeight="30.0" prefWidth="93.0" style="-fx-background-color: f6ff00;" text="No">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Label fx:id="PopUp_Label" layoutX="34.0" layoutY="101.0" text="Do You wanna buy This Place for 100$ ?">
+         <font>
+            <Font name="Berlin Sans FB" size="26.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="90.0" fitWidth="115.0" layoutX="197.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Offer.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

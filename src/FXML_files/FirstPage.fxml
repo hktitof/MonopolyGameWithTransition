@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML_Controllers.FirstPage">
+   <children>
+      <ImageView fitHeight="707.0" fitWidth="610.0" layoutX="-3.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Background1Login.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="41.0" layoutY="69.0" opacity="0.92" prefHeight="579.7" prefWidth="520.0" style="-fx-background-color: #f1f1f1;" visible="false" />
+      <AnchorPane fx:id="Center_AnchorPane" layoutX="138.0" layoutY="188.0" opacity="0.91" prefHeight="341.0" prefWidth="325.0" style="-fx-background-color: #f1f1f1;">
+         <children>
+            <ImageView fx:id="image_exit" fitHeight="77.0" fitWidth="212.0" layoutX="66.0" layoutY="188.0" onMouseEntered="#MouseEntred_Exit" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/exit%20png.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="image_start" fitHeight="77.0" fitWidth="192.0" layoutX="67.0" layoutY="67.0" onMouseClicked="#clicked_Start" onMouseEntered="#MouseEnteredOnStart" onMouseExited="#MouseExitedOnStart" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/start2.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="106.0" layoutY="649.0" opacity="0.94" prefHeight="38.0" prefWidth="389.0" style="-fx-background-color: #f1f1f1;">
+         <children>
+            <Label layoutX="90.0" layoutY="8.0" text="Developed By ANAFLOUS" textFill="#0042ff">
+               <font>
+                  <Font name="Berlin Sans FB" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="AnchorPane_start" prefHeight="706.0" prefWidth="603.0">
+         <children>
+            <ImageView fx:id="image_body" fitHeight="580.0" fitWidth="498.0" layoutX="53.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Body%20Png.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="image_header" fitHeight="580.0" fitWidth="498.0" layoutX="53.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Header%20Png.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="image_button_back" fitHeight="57.0" fitWidth="121.0" layoutX="169.0" layoutY="433.0" onMouseClicked="#Clicked_On_Back" onMouseEntered="#MouseEntred_Back_Button" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Button%20Back.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="image_button_new" fitHeight="57.0" fitWidth="121.0" layoutX="321.0" layoutY="433.0" onMouseClicked="#ClickedOnnew" onMouseEntered="#MouseEntred_New_Button" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/New%20Button.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="image_bar_select_player" fitHeight="77.0" fitWidth="325.0" layoutX="148.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/bat%20number%20of%20players%202.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="image_number_of_players" fitHeight="77.0" fitWidth="280.0" layoutX="162.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/number%20of%20players%206.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="image_select_6" fitHeight="22.0" fitWidth="9.0" layoutX="356.0" layoutY="304.0" onMouseClicked="#mouse_clickOn_6" pickOnBounds="true" preserveRatio="true" x="2.0">
+               <image>
+                  <Image url="@../images/test7.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="image_select_5" fitHeight="22.0" fitWidth="9.0" layoutX="316.0" layoutY="304.0" onMouseClicked="#mouse_clickOn_5" pickOnBounds="true" preserveRatio="true" x="2.0">
+               <image>
+                  <Image url="@../images/test7.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="image_select_4" fitHeight="22.0" fitWidth="9.0" layoutX="278.0" layoutY="304.0" onMouseClicked="#mouse_clickOn_4" pickOnBounds="true" preserveRatio="true" x="2.0">
+               <image>
+                  <Image url="@../images/test7.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="image_select_3" fitHeight="22.0" fitWidth="9.0" layoutX="238.0" layoutY="304.0" onMouseClicked="#mouse_clickOn_3" pickOnBounds="true" preserveRatio="true" x="2.0">
+               <image>
+                  <Image url="@../images/test7.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="image_select_2" fitHeight="22.0" fitWidth="9.0" layoutX="197.0" layoutY="304.0" onMouseClicked="#mouse_clickOn_2" pickOnBounds="true" preserveRatio="true" x="2.0">
+               <image>
+                  <Image url="@../images/test7.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="image_select_1" fitHeight="22.0" fitWidth="9.0" layoutX="164.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true" x="2.0">
+               <image>
+                  <Image url="@../images/test7.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="image_select_7" fitHeight="22.0" fitWidth="9.0" layoutX="392.0" layoutY="304.0" onMouseClicked="#mouse_clickOn_7" pickOnBounds="true" preserveRatio="true" x="2.0">
+               <image>
+                  <Image url="@../images/test7.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="image_select_8" fitHeight="22.0" fitWidth="9.0" layoutX="426.0" layoutY="304.0" onMouseClicked="#mouse_clickOn_8" pickOnBounds="true" preserveRatio="true" x="2.0">
+               <image>
+                  <Image url="@../images/test7.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="image_triangle" fitHeight="31.0" fitWidth="41.0" layoutX="187.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/triangle.png" />
+               </image>
+            </ImageView>
+            <JFXTextField fx:id="textfield_amount" alignment="CENTER" focusColor="#d3620c" layoutX="283.0" layoutY="360.0" prefHeight="44.0" prefWidth="150.0" unFocusColor="#cf5108">
+               <font>
+                  <Font name="Century Gothic Italic" size="21.0" />
+               </font>
+            </JFXTextField>
+            <ImageView fx:id="image_amount_label" fitHeight="57.0" fitWidth="140.0" layoutX="142.0" layoutY="366.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/amount.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="image_dollar_symbole" fitHeight="31.0" fitWidth="71.0" layoutX="418.0" layoutY="379.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/dollar.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="200.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML_Controllers.Chance_page">
+   <children>
+      <ImageView fitHeight="171.0" fitWidth="354.0" layoutX="97.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" scaleX="1.64" scaleY="1.2">
+         <image>
+            <Image url="@../images/backgroundPopUp.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="64.0" layoutX="222.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/chance_logo.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="Button_OK" layoutX="203.0" layoutY="148.0" onMouseClicked="#Click_On_OK" prefHeight="31.0" prefWidth="93.0" style="-fx-background-color: f6ff00;" text="OK">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Label fx:id="PopUp_Label" layoutX="146.0" layoutY="86.0" text="You have got 100$ ">
+         <font>
+            <Font name="Berlin Sans FB" size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
